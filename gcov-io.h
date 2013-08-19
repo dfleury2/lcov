@@ -515,9 +515,9 @@ GCOV_LINKAGE struct gcov_var
    functions for writing.  Your file may become corrupted if you break
    these invariants.  */
 #if IN_LIBGCOV
-GCOV_LINKAGE int gcov_open (const char */*name*/) ATTRIBUTE_HIDDEN;
+GCOV_LINKAGE int gcov_open (const char * /*name*/) ATTRIBUTE_HIDDEN;
 #else
-GCOV_LINKAGE int gcov_open (const char */*name*/, int /*direction*/);
+GCOV_LINKAGE int gcov_open (const char * /*name*/, int /*direction*/);
 GCOV_LINKAGE int gcov_magic (gcov_unsigned_t, gcov_unsigned_t);
 #endif
 GCOV_LINKAGE int gcov_close (void) ATTRIBUTE_HIDDEN;

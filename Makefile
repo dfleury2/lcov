@@ -1,10 +1,9 @@
 CPPFLAGS=-O3
 
-all:lcov++ gcov
+all:lcov++
 
-lcov++:lcov++.cpp
-gcov:gcov.cpp
+lcov++:lcov++.cpp demangle.cpp
 
 clean:
-	rm lcov++ gcov
+	rm lcov++
 

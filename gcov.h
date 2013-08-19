@@ -35,14 +35,6 @@
 #define FATAL_EXIT_CODE 1
 #define SUCCESS_EXIT_CODE 0
 
-inline
-void unlock_std_streams()
-{}
-
-inline
-void gcc_init_libintl()
-{}
-
 const char* bug_report_url = "Error URL";
 const char* version_string = "Version Number";
 
