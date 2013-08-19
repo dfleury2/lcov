@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="demangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lcov++.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="demangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gcov-io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gcov.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lcov++.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{e7fed2a0-c52c-4fec-b682-720188a79129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{419abd85-54d8-4610-bada-105852890f6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

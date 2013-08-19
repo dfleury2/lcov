@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lcov++-4.1.2", "lcov++.vcxproj", "{14D9A4A4-9F2B-41B1-9E78-10C1AFB312A6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gcov++-4.8.1", "gcov-4.8.1.vcxproj", "{C40EEB70-85B9-45C6-9D94-B0B1FE971757}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14D9A4A4-9F2B-41B1-9E78-10C1AFB312A6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{14D9A4A4-9F2B-41B1-9E78-10C1AFB312A6}.Debug|Win32.Build.0 = Debug|Win32
+		{14D9A4A4-9F2B-41B1-9E78-10C1AFB312A6}.Release|Win32.ActiveCfg = Release|Win32
+		{14D9A4A4-9F2B-41B1-9E78-10C1AFB312A6}.Release|Win32.Build.0 = Release|Win32
+		{C40EEB70-85B9-45C6-9D94-B0B1FE971757}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C40EEB70-85B9-45C6-9D94-B0B1FE971757}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
