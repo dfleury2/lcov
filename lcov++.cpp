@@ -1583,8 +1583,8 @@ void aggregate_info(const source_info* src)
                return_count -= arc->count;
 
          std::string functionName = Demangled(fn->name);
-         srcFunctions[ fn->name ].line = fn->line;
-         srcFunctions[ fn->name ].hit += fn->blocks[0].count;
+         srcFunctions[ functionName ].line = fn->line;
+         srcFunctions[ functionName ].hit += fn->blocks[0].count;
       }
 
       // For lines which don't exist in the .bb file, print '-' before
